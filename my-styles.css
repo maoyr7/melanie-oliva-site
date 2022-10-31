@@ -4,11 +4,20 @@ font-family: 'Red Hat Display', sans-serif; */
 
 
 body {
-  width: 700px;
-  margin: 30px auto;
+margin: 0px
   display: block;
-  background-color: #E4DDC8;
+  background-color: #F70000;
   font-family: 'Playfair Display', serif;
+
+}
+main{
+  width: 90%;
+  max-width: 1000px;
+  background: #F70000;
+  border-radius:1rem;
+  padding: 1rem 2rem;
+  box-sizing: boreder-box;
+margin: 1rem auto;
 
 }
 h1, {
@@ -16,9 +25,9 @@ h1, {
   /*font-size: 0.5rem;*/
 }
 
-h2, {
+h2 {
 font-family: 'Playfair Display', san-sans-serif;
-/* font-size: 4rem;
+/* font-size: 4rem; */
 }
 
 h3, {
@@ -31,4 +40,35 @@ list-style-type: none;
 }
  li {
   list-style-type: none;
+}
+
+h2 {
+font-weight: 700;
+font-style: italic;
+ }
+
+ li {
+list-style-type: none;
+font-style: italic;
+
+ }
+
+ ol li{
+   text-transform: uppercase;
+ }
+
+nav li, nav li a {
+  width: 100%;
+  display-block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.active {
+  background=color: #FF0000;
+  color: #000;
+  padding: 1rem;
+  
 }
